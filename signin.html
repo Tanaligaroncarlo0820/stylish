@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGNIN</title>
+    <link rel="stylesheet" href="LOGINCSS.css">
+    <style>
+         body{
+            background: rgba(0,0,0,0.7) url(DAMIT.jpg);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-blend-mode: darken;
+        }
+    
+    </style>
+</head>
+<body>
+    
+         <div class="wrapper">
+            <div class="content">
+                <h1>login</h1>
+                <form action="#">
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="UserName"
+                        required>
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password"
+                        required>
+                    </div>
+                    <div class="remember-me">
+                        <label for="">
+                            <input type="checkbox"> Remember ME
+                        </label>
+                        <a href="">Forget Password</a>
+                    </div>
+                    <input type="submit" value="Login" class="btn">
+                    <div class="new-account">
+                        <p>Don't Have Account?
+                            <a href="">Register</a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+         </div>
+</body>
+</html>
